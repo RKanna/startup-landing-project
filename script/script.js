@@ -1,6 +1,7 @@
 "use strict";
 const navBar = document.getElementById("navBar");
-navBar.style.borderBottom = "none";
+navBar.style.transition = "all 0.3s ease";
+
 window.addEventListener("scroll", function () {
   let touchContainer = document.getElementById("heroBox");
   const navBar = document.getElementById("navBar");
