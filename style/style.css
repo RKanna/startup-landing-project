@@ -407,6 +407,7 @@ h1 {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  border-radius: 0.5rem;
 }
 .starter-pack .starter {
   color: white;
@@ -453,6 +454,44 @@ h1 {
 .left-price span {
   color: white;
   font-size: 1.7rem;
+}
+.for-padding .family {
+  color: #333;
+}
+.family-pack {
+  position: relative;
+  background-color: white;
+  height: 40rem;
+  border-radius: 0.5rem;
+}
+.clsdr {
+  padding-bottom: 2rem;
+}
+.first-point .family-p {
+  width: 20rem;
+  line-height: 1.5rem;
+  color: #353946;
+}
+.line-family {
+  background-color: #f0f0f5;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  border-top: 0;
+}
+.recommended-div {
+  position: absolute;
+  top: -1rem;
+  left: 2rem;
+  width: 8rem;
+  height: 2rem;
+  background-color: #8d448b;
+  border-radius: 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-price .someprice {
+  cursor: pointer;
 }
 @media screen and (max-width: 768px) {
   .center-menu-items {
@@ -611,5 +650,23 @@ h1 {
   }
   .explore-btn:hover {
     background-position: 66%;
+  }
+  .pricing-section {
+    margin-top: 1rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    height: auto;
+  }
+  .pricing-content p {
+    font-size: 1.2rem;
+  }
+  .pack-details-row {
+    flex-direction: column;
+  }
+  .starter-pack {
+    width: 95%;
+  }
+  .family-pack {
+    width: 95%;
   }
 }
