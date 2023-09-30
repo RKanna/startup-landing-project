@@ -590,6 +590,70 @@ h1 {
   font-size: 1rem;
   color: #b9c1ca;
 }
+.footer-section {
+  padding: 6rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #020718;
+}
+.footer-section .footer-title {
+  font-size: 2.5rem;
+  color: white;
+}
+.footer-section .footer-content {
+  color: #4f5761;
+  font-weight: 700;
+  line-height: 2.7rem;
+}
+.submit-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.emailbox {
+  width: 23rem;
+  padding: 1.2rem 3rem 1.2rem 3rem;
+  background-color: #161a2a;
+  border-radius: 0.3rem;
+  border: none;
+}
+.emailbox:focus {
+  outline: 3px solid #8d448b;
+}
+.sub {
+  width: 11rem;
+  padding: 1.2rem 1rem 1.2rem 1rem;
+  background-color: white;
+  border: none;
+  border-radius: 0.3rem;
+  color: #10132d;
+  font-weight: 700;
+  cursor: pointer;
+}
+.footer-line-div {
+  width: 100%;
+  border: 1px solid #4f5761;
+}
+.logo-footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.footer-logo-main {
+  padding-top: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo-footer-container p {
+  color: #4f5761;
+}
 @media screen and (max-width: 768px) {
   .center-menu-items {
     display: none;
@@ -820,5 +884,33 @@ h1 {
   }
   .blog-content-div .blog-content {
     font-size: 1.2rem;
+  }
+  .footer-section {
+    padding: 2.5rem;
+  }
+  .submit-container {
+  }
+  .emailbox {
+    width: 14rem;
+  }
+  .footer-section .footer-title {
+    font-size: 1.8rem;
+  }
+  .footer-section .footer-content {
+    font-size: 0.9rem;
+    text-align: center;
+    width: 100%;
+  }
+  .footer-logo-main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .ftr-logo img {
+    width: 85%;
+  }
+  .logo-footer-container p {
+    text-align: center;
+    width: 100%;
   }
 }
