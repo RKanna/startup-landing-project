@@ -16,7 +16,7 @@ body {
   flex-direction: column;
 }
 .common-nav-hero {
-  background-image: url(/images/hero.jpeg);
+  background-image: url(./images/hero.jpeg);
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
