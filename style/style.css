@@ -493,6 +493,103 @@ h1 {
 .left-price .someprice {
   cursor: pointer;
 }
+.happy-customer-section {
+  display: flex;
+  flex-direction: row;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-top: 8rem;
+  width: 100%;
+  height: 45rem;
+  /* background-color: yellow; */
+}
+.customer-content-div {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.customer-content-div .customer-title {
+  font-size: 3rem;
+  width: 30rem;
+  line-height: 4rem;
+}
+.customer-content-div .customer-para {
+  font-size: 1.2rem;
+  width: 35rem;
+  line-height: 2.5rem;
+}
+.arrow-container-customer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: transform 1.2s ease-in-out;
+}
+.arrow-container-customer .sm-arrow {
+  cursor: pointer;
+}
+.arrow-container-customer a {
+  color: #8d448b;
+  text-decoration: none;
+  font-weight: 700;
+}
+.arrow-container-customer:hover {
+  gap: 0.5rem;
+}
+.blogpost-section {
+  padding-left: 6rem;
+  padding-right: 6rem;
+  width: 100%;
+  height: auto;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3rem;
+}
+.blog-content-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.blog-content-div .blog-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #8d448b;
+}
+.blog-content-div .blog-content {
+  font-size: 2rem;
+  color: #333;
+  padding-bottom: 4rem;
+}
+.comment-img-div {
+  display: flex;
+  flex-direction: row;
+  gap: 2.2rem;
+}
+.comment-box {
+  display: flex;
+  flex-direction: row;
+  gap: 0.4rem;
+}
+.first-comment-img,
+.second-comment-img,
+.third-comment-img {
+  display: flex;
+  flex-direction: column;
+  gap: 1.7rem;
+}
+.first-comment-img p,
+.second-comment-img p,
+.third-comment-img p {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.8rem;
+}
+.comment-box .cms-cl {
+  font-size: 1rem;
+  color: #b9c1ca;
+}
 @media screen and (max-width: 768px) {
   .center-menu-items {
     display: none;
@@ -668,5 +765,60 @@ h1 {
   }
   .family-pack {
     width: 95%;
+  }
+  .happy-customer-section {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    flex-direction: column;
+  }
+  .customer-content-div {
+    order: 1;
+  }
+  .customer-img-div {
+    order: 2;
+  }
+  .customer-content-div .customer-title {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+    line-height: 2.5rem;
+  }
+  .customer-content-div .customer-para {
+    font-size: 0.9rem;
+    width: 100%;
+    text-align: center;
+    line-height: 2.2rem;
+  }
+  .customer-content-div {
+    gap: 2rem;
+  }
+  .arrow-container-customer {
+    justify-content: center;
+    padding-bottom: 2rem;
+  }
+  .blogpost-section {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+  .comment-img-div {
+    flex-direction: column;
+    gap: 1.8rem;
+  }
+  .first-comment-img,
+  .second-comment-img,
+  .third-comment-img {
+    gap: 1rem;
+  }
+  .first-comment-img p,
+  .second-comment-img p,
+  .third-comment-img p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .comment-box .cms-cl {
+    font-size: 0.8rem;
+  }
+  .blog-content-div .blog-content {
+    font-size: 1.2rem;
   }
 }
